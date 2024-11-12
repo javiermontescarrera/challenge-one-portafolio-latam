@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,6 +30,8 @@
                 <li class="navegacion__elemento"><a href="#contacto">javier.montes.carrera@gmail.com</a></li>
             </ul>
         </nav>
+        <!-- Botón para alternar entre modo claro y oscuro -->
+        <button id="boton-modo" class="modo-toggle" aria-label="Alternar modo oscuro/claro">🌙</button>
     </header>
 
     <!-- Sección de Presentación -->
@@ -141,7 +144,7 @@
                 <img class="formacion__icono" src="assets/ufrj_logo.png" alt="UFRJ">
                 <div>
                     <h3 class="formacion__nombre">Posgrado en diseño</h3>
-                    <p class="formacion__detalle">En curso - UFRJ</p>
+                    <p class="formacion__detalle">2020 - UFRJ</p>
                 </div>
             </li>
         </ul>
@@ -149,15 +152,19 @@
 
     <!-- Sección de Proyectos -->
     <section class="proyectos" id="proyectos">
-        <h2 class="proyectos__titulo">Experiencia Profesional</h2>
-        <div class="proyectos__contenedor">
-            <h3 class="proyectos__nombre">Título de la Experiencia</h3>
-            <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
-        </div>
-        <div class="proyectos__contenedor">
-            <h3 class="proyectos__nombre">Título de la Experiencia</h3>
-            <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
-        </div>
+        <h2 class="proyectos__titulo">Proyectos</h2>
+        <ul class="proyectos__lista">
+            <li class="proyectos__elemento">
+                <img src="assets/proyecto1.png" alt="Proyecto 1" class="proyectos__img">
+                <h3 class="proyectos__nombre">Proyecto 1</h3>
+                <p class="proyectos__descripcion">Descripción del proyecto 1.</p>
+            </li>
+            <li class="proyectos__elemento">
+                <img src="assets/proyecto2.png" alt="Proyecto 2" class="proyectos__img">
+                <h3 class="proyectos__nombre">Proyecto 2</h3>
+                <p class="proyectos__descripcion">Descripción del proyecto 2.</p>
+            </li>
+        </ul>
     </section>
 
     <!-- Sección de Contacto -->
@@ -170,6 +177,8 @@
             <button class="contacto__boton" type="submit">Enviar</button>
         </form>
     </section>
-</body>
+
     <script src="script.js"></script>
+</body>
+
 </html>
