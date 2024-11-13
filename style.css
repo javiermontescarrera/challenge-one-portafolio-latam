@@ -194,6 +194,7 @@ body.modo-oscuro .sobre-mi {
 .sobre-mi__texto {
     font-size: 1rem;
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 .sobre-mi__firma {
