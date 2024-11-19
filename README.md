@@ -37,6 +37,11 @@ En este proyecto, se han implementado validaciones en JavaScript para el formula
 ### Tablet modo claro
 ![magen de la página en tablet en modo claro](assets/tablet-modo-claro.png)
 
-
 ### Tablet modo claro
 ![magen de la página en tablet en modo oscuro](assets/tablet-modo-oscuro.png)
+
+### Mobile modo claro
+![magen de la página en mobile en modo claro](assets/mobile-modo-claro.png)
+
+### Mobile modo claro
+![magen de la página en mobile en modo oscuro](assets/mobile-modo-oscuro.png)

@@ -431,9 +431,16 @@ body.modo-oscuro .aficiones__icono {
     cursor: pointer;
 }
 
+/* Media Queries solo para dispositivos móviles */
+@media (max-width: 767px) {
+    .navegacion__elemento {
+        display: none;
+    }
+}
+
 /* Media Queries para dispositivos móviles y tablets */
 @media (min-width: 768px) {
-    body {
+   body {
         padding: 0 2rem 0 2rem;
     }
 
