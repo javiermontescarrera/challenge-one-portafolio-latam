@@ -28,3 +28,17 @@ botonModo.addEventListener('click', () => {
         localStorage.setItem('modo', 'oscuro'); // Guardamos la preferencia
     }
 });
+
+onsubmit = () => {
+    // Verificar que todos los campos estén llenos
+    if (document.getElementById('input_nombre').value === '' || document.getElementById('input_email').value === '' || document.getElementById('input_mensaje').value === '') {
+        alert('Por favor, completa todos los campos del formulario');
+        return false;
+    }
+
+    // Limpiar input_nombre, input_email y input_mensaje
+    document.getElementById('input_nombre').value = '';
+    document.getElementById('input_email').value = '';
+    document.getElementById('input_mensaje').value = '';
+    alert('El formulario ha sido enviado');
+}

@@ -220,24 +220,24 @@
         <h2 class="formacion__titulo">Formación académica</h2>
         <ul class="formacion__lista">
             <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/ufpr_logo.png" alt="UFPR">
+                <img class="formacion__icono" src="assets/logo-upn.svg" alt="UPN" id="upn">
                 <div>
-                    <h3 class="formacion__nombre">Análisis de datos</h3>
-                    <p class="formacion__detalle">2018 - UFPR</p>
+                    <h3 class="formacion__nombre">Ingeniero Electrónico</h3>
+                    <p class="formacion__detalle">1999 - UPN</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/logo-upc.png" alt="UFRJ">
+                <div>
+                    <h3 class="formacion__nombre">Master en Blockchain</h3>
+                    <p class="formacion__detalle">2023 - UPC</p>
                 </div>
             </li>
             <li class="formacion__elemento">
                 <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
                 <div>
-                    <h3 class="formacion__nombre">Formación en UX Design</h3>
-                    <p class="formacion__detalle">2019 - Alura</p>
-                </div>
-            </li>
-            <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/ufrj_logo.png" alt="UFRJ">
-                <div>
-                    <h3 class="formacion__nombre">Posgrado en diseño</h3>
-                    <p class="formacion__detalle">2020 - UFRJ</p>
+                    <h3 class="formacion__nombre">Oracle Next Education</h3>
+                    <p class="formacion__detalle">2024 - Alura</p>
                 </div>
             </li>
         </ul>
@@ -248,14 +248,14 @@
         <h2 class="proyectos__titulo">Proyectos</h2>
         <ul class="proyectos__lista">
             <li class="proyectos__elemento">
-                <img src="assets/proyecto1.png" alt="Proyecto 1" class="proyectos__img">
-                <h3 class="proyectos__nombre">Proyecto 1</h3>
-                <p class="proyectos__descripcion">Descripción del proyecto 1.</p>
+                <img src="assets/logo-rimac.svg" alt="Tobi ChatBot" class="proyectos__img" id="proyecto_Tobi">
+                <h3 class="proyectos__nombre">Tobi ChatBot</h3>
+                <p class="proyectos__descripcion">Scrum Master del proyecto que implementó el primer chatbot transaccional de una compañía de seguros en el Perú. Actualmente este chatbot vende de manera automatizada seguros como: SOAT, seguros de accidentes de Niños y Jóvenes y Seguro de Viajes.</p>
             </li>
             <li class="proyectos__elemento">
-                <img src="assets/proyecto2.png" alt="Proyecto 2" class="proyectos__img">
-                <h3 class="proyectos__nombre">Proyecto 2</h3>
-                <p class="proyectos__descripcion">Descripción del proyecto 2.</p>
+                <img src="assets/logo-rimac.svg" alt="Pakta" class="proyectos__img" id="proyecto_Pakta">
+                <h3 class="proyectos__nombre">Pakta</h3>
+                <p class="proyectos__descripcion">Miembro de la célula ágil del proyecto Pakta seguros, que desarrolló el primer seguro 100% digital en el Perú.</p>
             </li>
         </ul>
     </section>
@@ -264,9 +264,9 @@
     <section class="contacto" id="contacto">
         <h2 class="contacto__titulo">Contacto</h2>
         <form class="contacto__formulario">
-            <input class="contacto__campo" type="text" placeholder="Nombre">
-            <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
-            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+            <input class="contacto__campo" type="text" placeholder="Nombre" id="input_nombre">
+            <input class="contacto__campo" type="email" placeholder="Correo Electrónico" id="input_email">
+            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje" id = "input_mensaje"></textarea>
             <button class="contacto__boton" type="submit">Enviar</button>
         </form>
     </section>
