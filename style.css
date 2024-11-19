@@ -172,6 +172,17 @@ body.modo-claro .modo-toggle:hover {
     justify-content: center;
     gap: 1.5rem;
     margin-top: 1.5rem;
+    list-style-type: none;
+}
+
+.redes__img a {
+    text-decoration: none;
+    color: rgb(0, 64, 255);
+    transition: color 0.3s;
+}
+
+body.modo-oscuro .redes__img a {
+    color: #fff;
 }
 
 /* Sección sobre mí */
