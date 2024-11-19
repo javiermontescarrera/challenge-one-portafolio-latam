@@ -224,6 +224,12 @@ body.modo-oscuro .habilidades {
     color: #fff;
 }
 
+/* Dar borde al recuadro de habilidades en modo oscuro y darle relieve al recuadro */
+body.modo-oscuro .habilidades__recuadro {
+    border: 0.5px solid #2fea0d8a;
+    box-shadow: 0px 2px 4px rgba(195, 194, 194, 0.529);
+}
+
 .habilidades__titulo {
     font-size: 1.8rem;
     text-align: center;
@@ -300,7 +306,7 @@ body.modo-oscuro .aficiones {
 
 /* Transición para aumentar el tamaño del elemento al pasar el cursor */
 .aficiones__elemento:hover {
-    transform: scale(1.10);
+    transform: scale(1.15);
     transition: transform 0.3s;
 }
 
@@ -339,6 +345,11 @@ body.modo-oscuro .formacion {
 .formacion__elemento {
     text-align: center;
     list-style-type: none;
+}
+
+.formacion__elemento:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s;
 }
 
 .formacion__icono {
