@@ -228,6 +228,22 @@ body.modo-oscuro .habilidades {
 
 .habilidades__elemento {
     text-align: center;
+    list-style-type: none;
+}
+
+.habilidades__recuadro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa; /* Color de fondo con ligero contraste */
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+body.modo-oscuro .habilidades__recuadro {
+    background-color: #404040; /* Fondo oscuro para el recuadro de habilidades */
+    color: #fff;
 }
 
 .habilidades__icono {
@@ -262,6 +278,7 @@ body.modo-oscuro .aficiones {
 
 .aficiones__elemento {
     text-align: center;
+    list-style-type: none;
 }
 
 .aficiones__icono {
@@ -298,6 +315,7 @@ body.modo-oscuro .formacion {
 
 .formacion__elemento {
     text-align: center;
+    list-style-type: none;
 }
 
 .formacion__icono {
@@ -392,6 +410,11 @@ body.modo-oscuro .aficiones__icono {
     .navegacion__lista {
         flex-direction: row;
         gap: 1rem;
+    }
+
+    .navegacion__elemento {
+        display: inline-block;
+        list-style-type: none;
     }
 
     .navegacion__elemento a {
